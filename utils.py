@@ -50,7 +50,6 @@ def get_post_by_pk(pk):
             return post
 
 
-#posts = get_posts_all()
 #post_found = get_posts_by_user('dron')
 #print(post_found)
 
