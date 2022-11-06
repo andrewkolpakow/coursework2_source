@@ -21,15 +21,13 @@ def get_posts_by_user(user_name):
         return posts_found
 
 
-
-
 def get_comments_by_post_id(post_id):
     comments_found = []
     comments = get_posts_all(path='comments.json')
     for comment in comments:
         if comment['post_id'] == post_id:
             comments_found.append(comment)
-    if len(comments_found):
+    if len(comments_found) == 0:
         raise ValueError('Пост не найден')
     else:
         return comments_found
@@ -53,7 +51,7 @@ def get_post_by_pk(pk):
 #post_found = get_posts_by_user('dron')
 #print(post_found)
 
-#result = get_comments_by_post_id(6)
+#result = get_comments_by_post_id(15)
 #print(result)
 
 #result_1 = search_for_posts('аГА')
