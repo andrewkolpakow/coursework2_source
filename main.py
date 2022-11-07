@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from utils import *
 
 app = Flask(__name__)
@@ -28,5 +28,16 @@ def search_page():
 def post_by_user(user_name):
     posts = get_posts_by_user(user_name)
     return render_template('user-feed.html', posts=posts, substr=user_name)
+
+@app.route("/api/posts")
+def get_posts_api():
+    posts = get_posts_all()
+    return jsonify(posts)
+
+@app.route("/api/posts/<int:pk>")
+def get_post_api(pk):
+    post_found = get_post_by_pk(pk)
+    return jsonify(post_found)
+
 
 app.run(debug=True)
