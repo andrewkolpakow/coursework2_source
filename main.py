@@ -52,4 +52,14 @@ def get_post_api(pk):
 '''API which shows the certain post by pk in json format'''
 
 
+@app.errorhandler(404)
+def not_found(e):
+    return "404 page not found"
+
+
+@app.errorhandler(500)
+def server_error(e):
+    return "500 internal server error"
+
+
 app.run(debug=True)

@@ -7,7 +7,6 @@ def get_posts_all(path='posts.json'):
     with open(path, 'r', encoding='utf-8') as file:
         posts = json.load(file)
     return posts
-
 '''Uploads all posts from json file'''
 
 def get_posts_by_user(user_name):
@@ -50,6 +49,9 @@ def get_post_by_pk(pk):
             return post
 '''Returns the posts with certain primary key number'''
 
+
+#posts = get_posts_all(path='nothing.json')
+#print(posts)
 
 #post_found = get_posts_by_user('leo')
 #print(post_found)
