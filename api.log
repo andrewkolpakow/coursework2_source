@@ -1,0 +1,24 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-942-481
+2022-11-09 22:45:46,558 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 01:13:05,520 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 01:15:04,991 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 01:15:49,569 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 01:18:49,438 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:35:55,018 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:36:17,090 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:37:09,867 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:37:43,264 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:38:48,765 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:41:29,320 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 19:42:13,136 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 20:44:22,954 - [INFO] - main - (main.py).all_posts(13) - knock knock
+2022-11-14 21:07:28,470 - [INFO] - main - (main.py).all_posts(14) - knock knock
+2022-11-14 21:08:03,675 - [INFO] - main - (main.py).all_posts(14) - knock knock
+2022-11-14 21:08:59,002 - [INFO] - main - (main.py).all_posts(14) - knock knock
+2022-11-14 21:10:33,158 - [INFO] - main - (main.py).all_posts(14) - knock knock
+2022-11-14 21:17:08,197 - [INFO] - main - (main.py).all_posts(14) - knock knock

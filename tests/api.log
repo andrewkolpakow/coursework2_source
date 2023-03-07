@@ -1,0 +1,109 @@
+2022-11-14 20:29:19,113 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 43, in get_posts_api
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+2022-11-14 20:30:54,425 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 43, in get_posts_api
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+2022-11-14 20:31:33,467 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 43, in get_posts_api
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+2022-11-14 20:35:34,180 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 43, in get_posts_api
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+2022-11-14 20:37:30,953 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 43, in get_posts_api
+    posts = get_posts_all('\coursework2_source\posts.json')
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\coursework2_source\\posts.json'
+2022-11-14 20:59:54,762 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 44, in get_posts_api
+    posts = utils.get_post_by_pk('..\posts.json')
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 46, in get_post_by_pk
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+2022-11-14 21:00:41,387 - [ERROR] - main - (app.py).log_exception(1741) - Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\venv1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\main.py", line 44, in get_posts_api
+    posts = utils.get_post_by_pk('..\posts.json')
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 46, in get_post_by_pk
+    posts = get_posts_all()
+  File "C:\Users\Andrew\PycharmProjects\pythonProject7\Sky-Python\coursework2_source\utils.py", line 7, in get_posts_all
+    with open(path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'

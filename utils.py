@@ -11,7 +11,7 @@ def get_posts_all(path='posts.json'):
 
 def get_posts_by_user(user_name):
     posts_found = []
-    posts = get_posts_all()
+    posts = get_posts_all(path='\posts.json')
     for post in posts:
         if post['poster_name'] == user_name:
             posts_found.append(post)
@@ -48,19 +48,3 @@ def get_post_by_pk(pk):
         if post['pk'] == pk:
             return post
 '''Returns the posts with certain primary key number'''
-
-
-#posts = get_posts_all(path='nothing.json')
-#print(posts)
-
-#post_found = get_posts_by_user('leo')
-#print(post_found)
-
-#result = get_comments_by_post_id(15)
-#print(result)
-
-#result_1 = search_for_posts('аГА')
-#print(result_1)
-
-#result_2 = get_post_by_pk(111)
-#print(result_2)
