@@ -63,4 +63,4 @@ def server_error(e):
     return "500 internal server error"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)
