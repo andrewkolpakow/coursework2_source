@@ -1,0 +1,1 @@
+SQLALCHEMY_DATABASE_URI = "postgresql://db:db_password@pg/db_name"
