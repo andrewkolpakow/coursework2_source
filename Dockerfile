@@ -1,0 +1,16 @@
+FROM python:3.10
+
+ENV HOME /app
+#Чтобы не подставлять везде /app
+WORKDIR $HOME
+
+COPY requirements.txt .
+#Копируем зависимости requirements.txt в текущую директорию
+RUN python3 -m pip install --no-cache -r requirements.txt
+
+COPY . .
+#Копируем проект целиком в директорию app
+CMD ['python', 'main.py']
+#Запускаем python для файла с Flask
+
+
