@@ -1,11 +1,15 @@
 from flask import Flask, render_template, request, jsonify
 
+import config
 import utils
+from db import db
 from logger import get_logger
 from utils import *
 import logging
 
 app = Flask(__name__)
+app.config.from_object(config)
+db.init_app(app)
 logger = get_logger("main")
 
 @app.route("/", methods=['GET'])
